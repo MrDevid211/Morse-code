@@ -10,12 +10,12 @@ try:
         def construct(form):
             form = form.lower()
             if form == "y" or form == "д":
-                old = open(u'Normal text.txt',"r")
-                new_file = open(u'New text.txt' , 'w')
+                old = open(u'Old.txt',"r")
+                new_file = open(u'Morse-code.txt' , 'w')
 
             elif form == "n" or form == "н":
-                old = open(u'Normal text',"r")
-                new_file = open(u'New text' , 'w')
+                old = open(u'Old',"r")
+                new_file = open(u'Morse-code' , 'w')
 
             else:
                 print("")
